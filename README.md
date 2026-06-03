@@ -6,4 +6,4 @@ Building scalable web systems, infrastructure-aware applications, and environmen
 
 - Cross-Stack System Engineering 
 - Web Architecture & Decenteralization
-- Infrastructure-aware cross stack development
+- Infrastructure-aware Development
