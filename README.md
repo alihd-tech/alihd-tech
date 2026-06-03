@@ -4,6 +4,6 @@ Building scalable web systems, infrastructure-aware applications, and environmen
 
 ## Focus Areas ⚡
 
-- Full-stack systems engineering 
-- API architecture & platform scaling
+- Cross-Stack System Engineering 
+- Web Architecture & Decenteralization
 - Infrastructure-aware cross stack development
