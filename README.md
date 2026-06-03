@@ -2,8 +2,6 @@
 
 Building scalable web systems, infrastructure-aware applications, and environment optimizations.
 
----
-
 ## Focus Areas ⚡
 
 - Full-stack systems engineering 
