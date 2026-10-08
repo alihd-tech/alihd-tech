@@ -17,7 +17,10 @@ jobs:
         with:
           github-token: ${{ secrets.CODE_LIFE_TOKEN }}
           username: alihd-tech
+          include-private: "true"
           timezone: Europe/Helsinki
+          workday-start: "9"
+          workday-end: "18"
           theme: dark
           card-style: detailed
           formats: svg
