@@ -17,7 +17,7 @@ jobs:
 
       - uses: alihd-tech/CodeLifeBalance@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.CODE_LIFE_TOKEN }}
           username: alihd-tech
           timezone: Europe/Helsinki
           theme: dark
