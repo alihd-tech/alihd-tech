@@ -1,4 +1,3 @@
-
 name: Update Code Life Balance
 
 on:
@@ -10,19 +9,19 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: alihd-tech/CodeLifeBalance@v1
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate Code Life Balance report
+        uses: alihd-tech/CodeLifeBalance@v1
         with:
           github-token: ${{ secrets.CODE_LIFE_TOKEN }}
           username: alihd-tech
           include-private: "true"
-          timezone: Europe/Helsinki
-          workday-start: "9"
-          workday-end: "18"
           theme: dark
           card-style: detailed
-          formats: svg
+          formats: svg,markdown
           output-dir: assets
           commit: "true"
