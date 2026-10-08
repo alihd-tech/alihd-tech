@@ -1,5 +1,7 @@
-# Ali (HD) Heydari
+# HD
 
 Building scalable web systems, infrastructure-aware applications, and environment optimizations.
-You See People I See People Too
-But it Would be Amazing to Chart Them
+
+## My Code Life Balance
+
+![Code Life Balance](./assets/code-life.svg)
