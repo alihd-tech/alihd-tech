@@ -1,0 +1,27 @@
+
+name: Update Code Life Balance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: alihd-tech/CodeLifeBalance@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: alihd-tech
+          timezone: Europe/Helsinki
+          theme: dark
+          card-style: detailed
+          formats: svg
+          output-dir: assets
+          commit: "true"
